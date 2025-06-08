@@ -1,0 +1,147 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+.container-navbar {
+    background-color: hwb(121 58% 5%);
+    width: 100%;
+    height: 5vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+}
+
+.li-navbar:hover {
+    background-color: rgb(123, 176, 255);
+    transition: 0.5s ease-in-out;
+    transition-delay: 50ms;
+    border-radius: 50px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+.container-content {
+    background-color: rgb(123, 176, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font size: 20px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.img-content {
+    width: 70%;
+    height: 50%;
+}
+
+.img1-content {
+    width: 50%;
+    height: 50%;
+}
+
+.text-content {
+    color: green;
+}
+
+.text-content:hover {
+    background-color: rgb(123, 176, 255);
+    border-radius: 50px;
+}
+
+.img-footer {
+    width: 30px;
+    height: auto;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.container-footer {
+    background-color: hwb(121 58% 5%);
+    width: 100%;
+    height: 5vh;
+}
+
+.ul-footer {
+    /* background-color:black; */
+    /* height: 10vh; */
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.li-footer {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    transition: background-color 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+    border-radius: 0;
+}
+
+/* Hover efek ke li-footer dan gambarnya */
+.li-footer:hover {
+    background-color: rgb(137, 144, 154);
+    border-radius: 50px;
+}
+
+/* Saat .li-footer di-hover, gambar di dalamnya juga berubah */
+.li-footer:hover .img-footer {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.a-footer {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.h2-footer {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
